@@ -1861,7 +1861,7 @@
                             </svg>
                             Back
                         </button>
-                        <button class="btn btn-primary" id="processBtn">
+                        <button class="btn btn-primary" id="processBtn" onclick="location.href='Loading_Screen.html'">
                             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M5 13l4 4L19 7" />
@@ -2086,7 +2086,6 @@
             const patientName = document.getElementById('fullName').value;
             const patientAge = document.getElementById('age').value;
 
-            alert(`✅ Patient Record Created Successfully!\n\nPatient: ${patientName}\nAge: ${patientAge}\nGender: ${selectedGender}\n\nFiles uploaded: ${totalFiles}\nChronic diseases: ${selectedChronicDiseases.length > 0 ? selectedChronicDiseases.join(', ') : 'None'}\n\nReady for AI-powered analysis and diagnosis support.`);
 
             // Optional: Reset form or redirect
             // location.reload(); // Uncomment to reset the form
