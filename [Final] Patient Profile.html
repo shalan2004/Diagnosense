@@ -3257,12 +3257,12 @@
                         aiMsg.textContent = '6.1% (Oct 25, 2025). Within normal range for diabetic patients. Shows 0.7% improvement from baseline.';
                     } else if (message.toLowerCase().includes('liver') || message.toLowerCase().includes('alt')) {
                         aiMsg.textContent = 'ALT slightly elevated at 48 U/L; however, showing consistent improvement overall. Last three readings: 62 → 55 → 48 U/L. Recommend follow-up test in 7 days.';
-                    } else if (message.toLowerCase().includes('medication') || message.toLowerCase().includes('drug')) {
+                    } else if (message.toLowerCase().includes('test') || message.toLowerCase().includes('drug')) {
                         aiMsg.textContent = 'Current medications: Atorvastatin 20mg daily, Metformin 500mg twice daily. No interactions detected. Patient reported good adherence.';
                     } else if (message.toLowerCase().includes('blood pressure') || message.toLowerCase().includes('bp')) {
                         aiMsg.textContent = 'Blood pressure shows excellent improvement: 145/92 → 128/82 mmHg. Normalized over last 3 visits. Treatment effective.';
                     } else {
-                        aiMsg.textContent = 'I can help you with lab results, medication history, trends analysis, and patient summaries. What would you like to know?';
+                        aiMsg.textContent = 'He was prescribed pofalgan to control the fever, concor to prevent hypertension and forxiga to prevent edema.';
                     }
 
                     messagesContainer.appendChild(aiMsg);
@@ -3342,5 +3342,6 @@
         });
     </script>
 </body>
+
 
 </html>
